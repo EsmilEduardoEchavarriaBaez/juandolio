@@ -1,0 +1,47 @@
+/* Estilo para la barra de navegación */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+    
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #555 !important;
+}
+
+/* Color de fondo para el menú móvil cuando se abre */
+#menu-desplegable {
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
+
+/* Estilo de las secciones de comida */
+.menu-item {
+  background-color: #999; /* Gris oscuro para resaltar el contenido */
+  color: white;
+  margin: 15px 0;
+  padding: 20px;
+  height: 800px; /* Altura suficiente para forzar el scroll */
+}
+
+.menu-item h3 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.back-to-top {
+  display: block;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Ajustes para que en móvil no haya márgenes laterales excesivos */
+@media (max-width: 767px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
